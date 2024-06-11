@@ -23,3 +23,5 @@ jobs:
       - run: pnpm run build --noEmit
       - run: pnpm run lint
       - run: pnpm run test run
+        env:
+          SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
