@@ -1,0 +1,32 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: monthly
+      timezone: America/Toronto
+    commit-message:
+      prefix: "⬆️ "
+    groups:
+      patch:
+        update-types:
+          - patch
+      eslint:
+        patterns:
+          - "*eslint*"
+      prettier:
+        patterns:
+          - "*prettier*"
+      typescript:
+        patterns:
+          - "*typescript*"
+          - tsx
+          - typedoc
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+      timezone: America/Toronto
+    commit-message:
+      prefix: "⬆️ "
