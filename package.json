@@ -3,7 +3,7 @@
 	"version": "0.0.0",
 	"description": "A bug report for Sentry.",
 	"keywords": [
-		"bug",
+		"bug-report",
 		"sentry",
 		"typescript"
 	],
