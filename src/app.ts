@@ -6,7 +6,7 @@ import express from "express"
 import { NODE_ENV, SENTRY_DSN } from "./env.js"
 
 const options: NodeOptions = {
-	dsn: SENTRY_DSN,
+	dsn: SENTRY_DSN.toString(),
 	environment: NODE_ENV,
 	integrations: [nodeProfilingIntegration()],
 
