@@ -9,13 +9,13 @@ importers:
   .:
     dependencies:
       '@sentry/google-cloud-serverless':
-        specifier: ~8.9.1
+        specifier: ^8.9.1
         version: 8.9.1
       '@sentry/node':
-        specifier: ~8.9.1
+        specifier: ^8.9.1
         version: 8.9.1
       '@sentry/profiling-node':
-        specifier: ~8.9.1
+        specifier: ^8.9.1
         version: 8.9.1
       dotenv:
         specifier: ^16.4.5
