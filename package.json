@@ -61,7 +61,7 @@
 		"eslint-config-prettier": "^9.1.0",
 		"globals": "^15.0.0",
 		"prettier": "^3.2.5",
-		"tsx": "^4.7.1",
+		"tsx": "^4.15.2",
 		"typedoc": "^0.25.13",
 		"typescript": "5.5.1-rc",
 		"typescript-eslint": "^7.7.1",
