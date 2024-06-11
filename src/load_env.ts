@@ -23,6 +23,26 @@ export function envNumber(key: string): number {
 	return num
 }
 
+export function envString(key: string): string {
+	const value = process.env[key]?.trim()
+	if (!value) throw new Error(`$${key} is missing`)
+	return value
+}
+
+export function envUrl(key: string, fallback?: URL): URL {
+	const value = process.env[key]?.trim()
+	if (fallback && !value) return fallback
+	if (!value) throw new Error(`$${key} is missing`)
+
+	const trimmed = value.endsWith("/") ? value.slice(0, -1) : value
+
+	try {
+		return new URL(trimmed)
+	} catch {
+		throw new Error(`$${key} is not a URL: ${value}`)
+	}
+}
+
 /** Loads environment variables from the `.env` files. `NODE_ENV` has to be set
  * in the environment and will not be picked up from there.
  *
