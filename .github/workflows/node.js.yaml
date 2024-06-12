@@ -10,6 +10,11 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
+    env:
+      NODE_ENV: test
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
+
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -17,16 +22,10 @@ jobs:
           version: latest
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: latest
           cache: pnpm
       - run: pnpm install --frozen-lockfile --strict-peer-dependencies
       - run: pnpm run build
       - run: node --import @sentry/node/preload ./dist/index.js
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
       - run: pnpm run lint
       - run: pnpm run test run
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
