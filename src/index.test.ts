@@ -1,6 +1,6 @@
 import { test } from "vitest"
-import * as index from "../src/index.js"
 
-test("index", ({ expect }) => {
+test("index", async ({ expect }) => {
+	const index = await import("../src/index.js")
 	expect(index).toBeDefined()
-})
+}, 1000)
