@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@sentry/google-cloud-serverless':
-        specifier: ^8.9.1
-        version: 8.9.1
+        specifier: ^8.9.2
+        version: 8.9.2
       '@sentry/node':
-        specifier: ^8.9.1
-        version: 8.9.1
+        specifier: ^8.9.2
+        version: 8.9.2
       '@sentry/profiling-node':
-        specifier: ^8.9.1
-        version: 8.9.1
+        specifier: ^8.9.2
+        version: 8.9.2
       dotenv:
         specifier: ^16.4.5
         version: 16.4.5
@@ -639,20 +639,20 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@sentry/core@8.9.1':
-    resolution: {integrity: sha512-7Q1yB4ZMJoNT6LsBVx1EyTsVemqYuKZoyEDEzZOYZsa/W438oF7M6g0JqK6TJG8JIZN50Lj5MrJOs6FAu51CCw==}
+  '@sentry/core@8.9.2':
+    resolution: {integrity: sha512-ixm8NISFlPlEo3FjSaqmq4nnd13BRHoafwJ5MG+okCz6BKGZ1SexEggP42/QpGvDprUUHnfncG6WUMgcarr1zA==}
     engines: {node: '>=14.18'}
 
-  '@sentry/google-cloud-serverless@8.9.1':
-    resolution: {integrity: sha512-RpkoyZTMWGGmDZzBKjtYzL49SFdFgeUNuqriIBJw/3Hywvx0K0v2Qw6fwIfjXCM67RP3V9aBpIfkiAVVeheY4w==}
+  '@sentry/google-cloud-serverless@8.9.2':
+    resolution: {integrity: sha512-XorGlLyMRWmOlpmEiUnGIH2wQ4s5a9lrsrqFN7LaM/jkxXfUBP54nYA+Ye60SPnNNxIOlWwkzbxHHB6ggomqUA==}
     engines: {node: '>=14.18'}
 
-  '@sentry/node@8.9.1':
-    resolution: {integrity: sha512-K1oqPT/0Hc/cdF/cVVrqU1mF2c27eI63OMDe6oYyXg1QCjl0U/eigBDT2XM6Oe3KCawUZoeyIlDLyBslqPGbKA==}
+  '@sentry/node@8.9.2':
+    resolution: {integrity: sha512-Q+JBpR4yx3eUyyhwgugucfRtPg65gYvzJGEmjzcnDJXJqX8ms4HPpNv9o2Om7A4014JxIibUdrQ+p5idcT7SZA==}
     engines: {node: '>=14.18'}
 
-  '@sentry/opentelemetry@8.9.1':
-    resolution: {integrity: sha512-hq6StcyNujB/Sh6bjGOzthLwXfMkXW6T23uiMisD0TEYX7WedJ57EXWMDDxasSRoZDJ0mLyM1yrvWhJjMrqr0g==}
+  '@sentry/opentelemetry@8.9.2':
+    resolution: {integrity: sha512-Q6SHDQhrsBPcMi7ejqVdNTkt6SCTIhpGsFN8QR7daH3uvM0X2O7ciCuO9gRNRTEkflEINV4SBZEjANYH7BkRAg==}
     engines: {node: '>=14.18'}
     peerDependencies:
       '@opentelemetry/api': ^1.9.0
@@ -661,17 +661,17 @@ packages:
       '@opentelemetry/sdk-trace-base': ^1.25.0
       '@opentelemetry/semantic-conventions': ^1.25.0
 
-  '@sentry/profiling-node@8.9.1':
-    resolution: {integrity: sha512-0H2y9JEpXDKdgd6eUWf9J9lL0R1IKHx2TGrStgBmPTTi+Y73tw//uEieAfLoENP2uDhZVLrzzmK/hDk0NqvBIg==}
+  '@sentry/profiling-node@8.9.2':
+    resolution: {integrity: sha512-MUIT3KCC2im6GCrnicuiBqObRV7QVnMcdG7ZYMYE72L8ZoUd9bkTW1GWWYgTPZ1Tmxk5CT2GvTQmml9Wo7ESHg==}
     engines: {node: '>=14.18'}
     hasBin: true
 
-  '@sentry/types@8.9.1':
-    resolution: {integrity: sha512-V+TkaDVhakH/oW6f1KQiRbvHcczQLEzdwlH2lAP5Flh+wESS5VaSPqj+esLg53GFF8q0tw7QH1tSUGXWeGoJ5g==}
+  '@sentry/types@8.9.2':
+    resolution: {integrity: sha512-+LFOyQGl+zk5SZRGZD2MEURf7i5RHgP/mt3s85Rza+vz8M211WJ0YsjkIGUJFSY842nged5QLx4JysLaBlLymg==}
     engines: {node: '>=14.18'}
 
-  '@sentry/utils@8.9.1':
-    resolution: {integrity: sha512-9TROyW7PbyokwVO41wIhQRenhW+kPg2ws2nzz21aFbLCrwXvF2nNsZ67roeXOiu9n2Oy/O1yEksPOcT4zFcesQ==}
+  '@sentry/utils@8.9.2':
+    resolution: {integrity: sha512-A4srR9mEBFdVXwSEKjQ94msUbVkMr8JeFiEj9ouOFORw/Y/ux/WV2bWVD/ZI9wq0TcTNK8L1wBgU8UMS5lIq3A==}
     engines: {node: '>=14.18'}
 
   '@sinclair/typebox@0.27.8':
@@ -2334,22 +2334,22 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.18.0':
     optional: true
 
-  '@sentry/core@8.9.1':
+  '@sentry/core@8.9.2':
     dependencies:
-      '@sentry/types': 8.9.1
-      '@sentry/utils': 8.9.1
+      '@sentry/types': 8.9.2
+      '@sentry/utils': 8.9.2
 
-  '@sentry/google-cloud-serverless@8.9.1':
+  '@sentry/google-cloud-serverless@8.9.2':
     dependencies:
-      '@sentry/core': 8.9.1
-      '@sentry/node': 8.9.1
-      '@sentry/types': 8.9.1
-      '@sentry/utils': 8.9.1
+      '@sentry/core': 8.9.2
+      '@sentry/node': 8.9.2
+      '@sentry/types': 8.9.2
+      '@sentry/utils': 8.9.2
       '@types/express': 4.17.21
     transitivePeerDependencies:
       - supports-color
 
-  '@sentry/node@8.9.1':
+  '@sentry/node@8.9.2':
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/context-async-hooks': 1.25.0(@opentelemetry/api@1.9.0)
@@ -2374,42 +2374,42 @@ snapshots:
       '@opentelemetry/sdk-trace-base': 1.25.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/semantic-conventions': 1.25.0
       '@prisma/instrumentation': 5.15.0
-      '@sentry/core': 8.9.1
-      '@sentry/opentelemetry': 8.9.1(@opentelemetry/api@1.9.0)(@opentelemetry/core@1.25.0(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.52.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.25.0(@opentelemetry/api@1.9.0))(@opentelemetry/semantic-conventions@1.25.0)
-      '@sentry/types': 8.9.1
-      '@sentry/utils': 8.9.1
+      '@sentry/core': 8.9.2
+      '@sentry/opentelemetry': 8.9.2(@opentelemetry/api@1.9.0)(@opentelemetry/core@1.25.0(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.52.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.25.0(@opentelemetry/api@1.9.0))(@opentelemetry/semantic-conventions@1.25.0)
+      '@sentry/types': 8.9.2
+      '@sentry/utils': 8.9.2
     optionalDependencies:
       opentelemetry-instrumentation-fetch-node: 1.2.0
     transitivePeerDependencies:
       - supports-color
 
-  '@sentry/opentelemetry@8.9.1(@opentelemetry/api@1.9.0)(@opentelemetry/core@1.25.0(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.52.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.25.0(@opentelemetry/api@1.9.0))(@opentelemetry/semantic-conventions@1.25.0)':
+  '@sentry/opentelemetry@8.9.2(@opentelemetry/api@1.9.0)(@opentelemetry/core@1.25.0(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.52.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.25.0(@opentelemetry/api@1.9.0))(@opentelemetry/semantic-conventions@1.25.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/core': 1.25.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/instrumentation': 0.52.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-trace-base': 1.25.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/semantic-conventions': 1.25.0
-      '@sentry/core': 8.9.1
-      '@sentry/types': 8.9.1
-      '@sentry/utils': 8.9.1
+      '@sentry/core': 8.9.2
+      '@sentry/types': 8.9.2
+      '@sentry/utils': 8.9.2
 
-  '@sentry/profiling-node@8.9.1':
+  '@sentry/profiling-node@8.9.2':
     dependencies:
-      '@sentry/core': 8.9.1
-      '@sentry/node': 8.9.1
-      '@sentry/types': 8.9.1
-      '@sentry/utils': 8.9.1
+      '@sentry/core': 8.9.2
+      '@sentry/node': 8.9.2
+      '@sentry/types': 8.9.2
+      '@sentry/utils': 8.9.2
       detect-libc: 2.0.3
       node-abi: 3.64.0
     transitivePeerDependencies:
       - supports-color
 
-  '@sentry/types@8.9.1': {}
+  '@sentry/types@8.9.2': {}
 
-  '@sentry/utils@8.9.1':
+  '@sentry/utils@8.9.2':
     dependencies:
-      '@sentry/types': 8.9.1
+      '@sentry/types': 8.9.2
 
   '@sinclair/typebox@0.27.8': {}
 
