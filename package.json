@@ -52,7 +52,7 @@
 		"@sentry/profiling-node": "^8.13.0",
 		"dotenv": "^16.4.5",
 		"express": "^4.19.2",
-		"openai": "^4.52.1"
+		"openai": "^4.52.2"
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.6.0",
@@ -64,7 +64,7 @@
 		"prettier": "^3.3.2",
 		"tsx": "^4.15.8",
 		"typedoc": "^0.26.3",
-		"typescript": "5.5.2",
+		"typescript": "5.5.3",
 		"typescript-eslint": "^7.14.1",
 		"vitest": "^1.6.0"
 	},
