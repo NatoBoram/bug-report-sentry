@@ -52,7 +52,7 @@
 		"@sentry/profiling-node": "^8.13.0",
 		"dotenv": "^16.4.5",
 		"express": "^4.19.2",
-		"openai": "^4.52.2"
+		"openai": "^4.53.2"
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.6.0",
